@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachines_App_VM1_name": {
+      "value": "AppVM1"
+    },
+    "virtualMachines_App_VM2_name": {
+      "value": "AppVM2"
+    },
+    "virtualMachines_App_VM3_name": {
+      "value": "AppVM3"
+    },
+    "virtualMachines_App_VM4_name": {
+      "value": "AppVM4"
+    },
+    "vaults_RSV_test_name": {
+      "value": "alex-test2"
+    },
+    "publicIPAddresses_AppLB_IP_name": {
+      "value": "AppLBIP"
+    },
+    "virtualMachines_OracleDB_VM_name": {
+      "value": "OracleDBVM"
+    },
+    "networkInterfaces_app_vm280_name": {
+      "value": "appvm280"
+    },
+    "networkInterfaces_app_vm1617_name": {
+      "value": "appvm1617"
+    },
+    "networkInterfaces_app_vm3391_name": {
+      "value": "appvm3391"
+    },
+    "networkInterfaces_app_vm4492_name": {
+      "value": "appvm4492"
+    },
+    "publicIPAddresses_App_VM1_ip_name": {
+      "value": "appvm1ip"
+    },
+    "publicIPAddresses_App_VM2_ip_name": {
+      "value": "appvm2ip"
+    },
+    "publicIPAddresses_App_VM3_ip_name": {
+      "value": "appvm3ip"
+    },
+    "publicIPAddresses_App_VM4_ip_name": {
+      "value": "appvm4ip"
+    },
+    "publicIPAddresses_myPublicIP_name": {
+      "value": "myPublicIP"
+    },
+    "publicIPAddresses_VNet1GWpip_name": {
+      "value": "Vnet1GWpip"
+    },
+    "sshPublicKeys_OracleDB_VM_key_name": {
+      "value": "OracleDB"
+    },
+    "loadBalancers_AppLoadBalancer_name": {
+      "value": "AppLoadBalancer"
+    },
+    "virtualNetworkGateways_VNet1GW_name": {
+      "value": "Vnet1GW"
+    },
+    "virtualNetworks_Test_alex_vnet_name": {
+      "value": "Testalexvnet"
+    },
+    "networkInterfaces_oracledb_vm533_name": {
+      "value": "oracledbvm"
+    },
+    "publicIPAddresses_OracleDB_VM_ip_name": {
+      "value": "OracleDBVMip"
+    },
+    "storageAccounts_appfilesharetest_name": {
+      "value": "appfilesharetest32443231"
+    },
+    "networkSecurityGroups_App_VM1_nsg_name": {
+      "value": "AppVM1nsg"
+    },
+    "networkSecurityGroups_App_VM2_nsg_name": {
+      "value": "AppVM2nsg"
+    },
+    "publicIPAddresses_myPublicIPOutbound_name": {
+      "value": "mypublicIPoutbound"
+    },
+    "networkSecurityGroups_Test_alex_vnet_NSG_CASG_name": {
+      "value": "AlexVnetNSGCASG"
+    }
+  }
+}
